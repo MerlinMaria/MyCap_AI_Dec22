@@ -1,0 +1,19 @@
+#Fibonacci numbers using python
+a = 0
+b = 1
+n=int(input('Enter the number of terms '))
+if n <= 0:
+  print("Enter a positive number")
+elif n == 1:
+  print("Fibonacci series of ", n ," terms")
+  print(a)
+else:
+  print("Fibonacci series of ", n ," terms")
+  print(a,',',b,end="")
+  count=0
+  while count < n:
+    c=a+b
+    print(',',c,end="")
+    a=b
+    b=c
+    count+=1
