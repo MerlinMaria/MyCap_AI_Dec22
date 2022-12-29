@@ -1,0 +1,11 @@
+#printing positive numbers in a list
+list=[]
+n= int(input('Enter the number of elements in the list '))
+for i in range(0,n):
+  ele = int(input())
+
+  list.append(ele)
+print("Positive nos.")
+for i in range(0,n):
+  if list[i]%2==0:
+    print(list[i])
