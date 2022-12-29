@@ -1,0 +1,7 @@
+#Set operations
+E={0,2,4,6,8}
+N={1,2,3,4,5}
+print("E Union N : ", E | N)
+print("E Intersection N : ", E & N)
+print("E Difference N : ", E - N)
+print("E Symmetric difference N : ", E ^ N)
